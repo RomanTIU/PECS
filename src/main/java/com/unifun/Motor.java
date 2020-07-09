@@ -6,7 +6,7 @@ import lombok.*;
 @Setter
 @ToString
 
-public class Motor  {
+public class Motor extends Piston  {
     private String type;
     private int power;
     public Motor(){}
